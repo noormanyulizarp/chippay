@@ -1,0 +1,22 @@
+stages:
+  - test
+  - lint
+
+before_script:
+  - yarn install
+
+test:
+  image: node:9-alpine
+  stage: test
+  script:
+    - CI=true yarn test -- --coverage
+  artifacts:
+    paths:
+      - coverage/
+
+lint:
+  image: chetankothari/js-pronto
+  stage: lint
+  allow_failure: true
+  script:
+    - pronto run --exit-code -f gitlab -c origin/master

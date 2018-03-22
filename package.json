@@ -1,0 +1,53 @@
+{
+  "name": "web-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "glyphicons-halflings": "^1.9.1",
+    "joi": "^13.1.2",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.6.2",
+    "moment": "^2.21.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "simple-global-store": "^1.4.0-beta",
+    "sweetalert2": "^7.15.1",
+    "validate.js": "^0.12.0"
+  },
+  "scripts": {
+    "lint": "eslint src/**/**.js*",
+    "lint:fix": "eslint --fix src/**/**.js*",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.7.0",
+    "moxios": "^0.4.0",
+    "react-test-renderer": "^16.2.0"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "text-summary"
+    ],
+    "collectCoverageFrom": [
+      "src/js/**/*.{js,jsx}",
+      "!src/setupTest.js"
+    ]
+  }
+}

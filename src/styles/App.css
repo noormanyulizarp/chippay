@@ -1,0 +1,272 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #d6d6d6;
+}
+
+.my-card {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 12rem;
+}
+
+.padding-left-right {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.my-card_image {
+    height: 150px;
+}
+
+.render-wrapper {
+    min-width: 82vw;
+    transition: min-width 0.2s;
+}
+
+.render-wraper-inactive {
+    min-width: 93.5vw;
+    transition: min-width 0.5s;
+}
+
+@media (max-width: 768px) {
+    .render-wrapper {
+        min-width: 100vw;
+        transition: min-width 0.2s;
+    }
+
+    .render-wraper-inactive {
+        min-width: 87vw;
+        transition: min-width 0.5s;
+    }
+}
+
+@media (width: 1024px) {
+    .render-wrapper {
+        min-width: 60vw;
+        transition: min-width 0.2s;
+    }
+
+    .render-wraper-inactive {
+        min-width: 87vw;
+        transition: min-width 0.5s;
+    }
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+.first-header {
+    margin-left: 15px;
+}
+
+.Label-input {
+    margin-right: 10px;
+}
+
+.table-preset {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 0.9vw;
+}
+
+.current-balance {
+    color: white;
+}
+
+.current-balance-container {
+    border-radius: 3px;
+}
+
+.content-center {
+    padding-top: 1.5vw;
+    padding-bottom: 1vw;
+}
+
+.content-be-header {
+    padding-top: 2.8vw;
+    padding-bottom: 1vw;
+}
+
+.money-value {
+    font-size: large;
+}
+
+.current-title {
+    padding-top: 0.8vw;
+    font-size: 1.7vw;
+    padding-bottom: 0.8vw;
+}
+
+.moneys {
+    transition: box-shadow 0.2s;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.shadowing-right {
+    box-shadow: -2px 5px 10px 0px rgba(11, 55, 74, 0.9);
+    transition: box-shadow 0.2s;
+}
+
+.shadowing-title {
+    box-shadow: 2px 2px 5px 1px rgba(16, 103, 138, 0.35);
+    transition: box-shadow 0.2s;
+}
+
+.shadowing-left {
+    box-shadow: 1px 2px 5px 1px rgba(16, 103, 138, 0.35);
+    transition: box-shadow 0.2s;
+}
+
+.table-shadow {
+    box-shadow: 1px 2px 5px 1px rgba(16, 103, 138, 0.35);
+    transition: box-shadow 0.2s;
+}
+
+.margin-top-2px {
+    margin-top: 10px;
+}
+
+.border-b-1 .desci {
+    color: #2095f3;
+}
+
+.underline-it {
+    text-underline: white;
+    text-underline-style: dash-long;
+}
+
+.payee-input {
+    min-width: 30vw;
+    margin-right: 10px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.background-yellow {
+    background-color: yellow;
+}
+
+.background-green {
+    background-color: green;
+}
+
+.background-purple {
+    background-color: purple;
+}
+
+.gaadiex-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gaadiex-list > .gaadiex-list-item {
+    padding: 0 22px;
+}
+
+.gaadiex-list-item-img {
+    float: left;
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.gaadiex-list-item i {
+    float: left;
+    font-size: 48px;
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.border-b-1 {
+    border-bottom: 1px solid rgba(162, 162, 162, .16);
+}
+
+.cekks {
+    background-color: #fff;
+}
+
+.red-icon {
+    color: red;
+}
+
+.green-icon {
+    color: forestgreen;
+}
+
+.transaction-text {
+    color: black;
+}
+
+.text-pad-left-right {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.pad-left-right-conteent {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.margin-button-bottom {
+    margin-bottom: 15px;
+}
+
+.card-margin {
+    margin-bottom: 15px;
+}
+
+.card-infos {
+    width: 63vw;
+}
+
+.card-button-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.input-transfer {
+    margin-bottom: 1vh;
+}
+
+.unshow{
+    display: none;
+}
+
+.send-list{
+    margin-top: 5vh;
+    transition: all 0.3s;
+}
+
+.step-padding{
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+}
+
+.triple-color{
+    color: white;
+    background: linear-gradient(141deg, #0f9de8 0%, #1ea49f 51%, #1fc8db 75%);
+}
+
+.monkey-money{
+    font-size: 4.6vh;
+}
